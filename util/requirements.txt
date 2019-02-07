@@ -1,0 +1,9 @@
+backports.functools-lru-cache==1.5
+beautifulsoup4==4.7.1
+bs4==0.0.1
+get==2018.11.19
+post==2018.11.20
+public==2018.11.20
+query-string==2018.11.20
+request==2018.11.20
+soupsieve==1.7.3
