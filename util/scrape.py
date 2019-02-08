@@ -45,6 +45,7 @@ class Scraper():
                 except:
                     pass
         f = open("webLink.tsv","w")
+        f.write("Source\tTarget\n")
         for key in self.graph:
             print(key, len(self.graph[key]))
             for val in self.graph[key]:

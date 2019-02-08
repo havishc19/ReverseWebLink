@@ -44,7 +44,7 @@ public class MapReduceWebLink {
       String finalVal = "[";
       for (Text val1 : values) {
         String val = val1.toString();
-        finalVal = finalVal + val + ",";
+        finalVal = finalVal + val + ";";
       } 
       finalVal = finalVal.substring(0, finalVal.length() - 1) + "]";
       context.write(key, new Text(finalVal));
